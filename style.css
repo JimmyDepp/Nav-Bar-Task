@@ -1,0 +1,75 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+nav {
+    background-color: black;
+    padding: 0px;
+}
+
+nav ul {
+    padding: 0px;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: bold;
+    
+}
+
+nav ul .menu-list-item {
+    position: relative;
+}
+
+nav ul .menu-list-item:hover .drop-menu .style2 {
+    position: relative;
+    display: block;
+}
+
+nav ul li .drop-menu {
+    position: absolute;
+    
+}
+
+.user:hover {
+    background-color: rgba(127, 255, 212, .5);
+    border: none;
+}
+
+.style1:hover {
+    background-color: rgb(127, 255, 212);
+    color: rgb(68, 83, 36);
+    border-bottom: 1px solid sandybrown;
+}
+
+.style2 {
+    color: bisque;
+    background-color: rgb(77, 64, 45);
+    width: 130px;
+    display: none;
+}
+
+.style2:hover {
+    background-color: aquamarine;
+    color: rgb(169, 216, 68);
+    border: none;
+    
+}
+
+
+
+
+
+
